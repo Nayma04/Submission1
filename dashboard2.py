@@ -12,7 +12,7 @@ st.write(
 )
 
 # 📥 **Load Data**
-day_df = pd.read_csv(r"C:/Users/Lenovo/Documents/Kuliah/Semester 6/Dicoding/Penyewaan_Sepeda.csv")
+day_df = pd.read_csv(r"Penyewaan_Sepeda.csv")
 
 # 🎯 **Konversi kolom tanggal**
 day_df["date"] = pd.to_datetime(day_df["date"])
